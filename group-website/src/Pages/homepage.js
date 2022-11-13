@@ -6,6 +6,7 @@ function HomePage() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <br/>
         <p>
           Frank Selingskil is a thinker and a thonker
         </p>

@@ -1,0 +1,38 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    border-radius:  0px 0px 5px 5px;
+    background-color: darksalmon;
+    height: 70px;
+    padding-bottom: 5px;
+    z-index: 99;
+
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10 */
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    /*If you user Opera fuck you this website doesn't work then*/
+   -o-user-select: none;
+   user-select: none;
+}
+
+.navigation > ul {
+    padding: 0%
+}
+
+.navigation-icon {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  width: 50px;
+}
+
+.navigation-icon:hover {
+    border-bottom: 5px solid black;
+    padding-bottom: 0;
+  }
